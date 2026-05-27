@@ -12,4 +12,4 @@ const fruits = [
   "watermelon",
 ];
 
-console.log(fruits.some((fruit) => fruit === "apple"));
+console.log(fruits.includes("apple"));
